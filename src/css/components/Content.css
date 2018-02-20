@@ -1,0 +1,295 @@
+
+.btn-download {
+  font-size: 14px;
+}
+
+.btn-download i {
+  position: relative;
+  top: -1px;
+  font-size: 12px;
+  margin-right: 7px;
+}
+
+/**************************************************************************
+ * Blocks
+ **************************************************************************/
+.block {
+  padding: 30px;
+  margin-top: 30px;
+  background: #fff;
+  color: #434343;
+  font-family: 'Lato', arial, sans-serif;
+}
+
+/**************************************************************************
+ * Block banner images (Latest Projects)
+ **************************************************************************/
+.block img {
+  max-width: 100%;
+}
+
+/**************************************************************************
+ * Ribbons (From Latest projects - featured image)
+ **************************************************************************/
+.ribbon {
+  position: absolute;
+  z-index: 1;
+  top: -4px;
+  right: -4px;
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+}
+.ribbon > *:first-child {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  left: -8px;
+  top: 18px;
+  width: 158px;
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #479FC8;
+  -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+  -moz-transform: rotate(45deg) translate3d(0, 0, 0);
+  -ms-transform: rotate(45deg) translate3d(0, 0, 0);
+  -o-transform: rotate(45deg) translate3d(0, 0, 0);
+}
+.ribbon > *:first-child:before,
+.ribbon > *:first-child:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  border-top: 5px solid #276582;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.ribbon > *:first-child:before {
+  left: 0;
+}
+.ribbon > *:first-child:after {
+  right: 0;
+}
+
+/**************************************************************************
+ * Main projects
+ **************************************************************************/
+ul.main-projects > li {
+
+}
+ul.main-projects > li > a:first-child {
+  display: block;
+  float: left;
+  width: 300px;
+  height: 225px;
+  max-width: 100%;
+
+  margin-right: 30px;
+}
+ul.main-projects > li > a:first-child > img {
+  width: 100%;
+}
+
+
+ul.main-projects > li > a:first-child + div {
+  padding: 0 30px 0 0;
+}
+
+ @media(min-width: 768px) {
+  ul.main-projects > li > a:first-child {
+    width: 200px;
+    height: 150px;
+  }
+ }
+  @media(min-width: 992px) {
+   ul.main-projects > li > a:first-child {
+     width: 165px;
+     height: 124px;
+   }
+  }
+
+ @media(min-width: 1200px) {
+  ul.main-projects > li > a:first-child {
+    width: 210px;
+    height: 158px;
+  }
+ }
+
+ @media(min-width: 1400px) {
+  ul.main-projects > li > a:first-child {
+    width: 252px;
+    height: 189px;
+  }
+ }
+
+/**************************************************************************
+ * Headings (About me, Work Experience, etc - the heading itself)
+ **************************************************************************/
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #545e69;
+  font-size: 24px;
+  margin-bottom: 28px;
+}
+/**************************************************************************
+ * Sub-headings (Universities under Education)
+ **************************************************************************/
+.sub-heading {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #778492;
+}
+
+.sub-heading-label {
+  margin-left: 5px;
+  background: #3AAA64;
+  font-size: 12px;
+  color: #fff;
+  padding: .2em .6em .3em;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+
+
+/**************************************************************************
+ * Work Experience
+ **************************************************************************/
+ ul.work-experience > li > .sub-heading > span {
+    color: #999;
+    font-size: 16px;
+    font-weight: normal;
+ }
+
+/**************************************************************************
+ * Contact box (top right)
+ **************************************************************************/
+.contact-details {}
+.contact-details > ul > li {
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+.contact-details > ul > li:last-of-type {
+  margin-bottom: 0;
+}
+.contact-details > ul > li > i {
+  display: inline-block;
+  text-align: center;
+  width: 25px;
+  position: relative;
+  left: -10px;
+  bottom: -2px;
+  font-size: 16px;
+}
+
+/**************************************************************************
+ * Skills
+ **************************************************************************/
+ul.skills > li {
+  margin: 0 0 30px;
+  padding: 0;
+}
+
+ul.skills > li > h4 {
+  display: inline-block;
+}
+
+ul.skills > li > span {
+  display: block;
+  float: right;
+  color: #ccd1d6;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", arial, sans-serif;
+}
+
+.skillbar {
+  height: 15px;
+  background: #e8e8e8;
+}
+
+.skillbar > .fill {
+  height: 100%;
+  background: #66cb8c;
+}
+
+/**************************************************************************
+ * Education
+ **************************************************************************/
+.education > span {
+  margin-left: 10px;
+}
+
+
+.education span h4,
+.education span p {
+  display: inline-block;
+}
+.education span p {
+  margin-left: 2em;
+  font-family: "Lato", arial, sans-serif;
+  font-size: 13px;
+  color: #999;
+  font-weight: 600;
+}
+
+.education span p small {
+  color: #b0b7bf;
+}
+
+/**************************************************************************
+ * Testimonials
+ **************************************************************************/
+blockquote {
+  padding: 11px 20px 1px;
+  border-left: 5px solid #9fdeb7;
+}
+blockquote i {
+  color: #79d19a;
+  margin-right: 15px;
+}
+
+blockquote + div.author {
+  padding-left: 30px;
+}
+
+blockquote + div.author > h5 {
+  margin: -5px 0 0;
+  color: #939ea9;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+blockquote + div.author > p {
+  margin: 0;
+  color: #999;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+/**************************************************************************
+ * Music playlist
+ **************************************************************************/
+ul.playlist > li,
+ul.credits > li {
+  margin: 8px 0;
+  padding: 0;
+  color: #778492;
+  font-weight: 400;
+}
+
+ul.playlist > li i ,
+ul.credits > li i {
+  margin-right: 6px;
+}
+ul.credits > li i {
+  margin-right: 10px;
+}

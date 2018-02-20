@@ -1,0 +1,17 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import './css/bootstrap.css';
+import './css/fonts.core.css';
+import './css/fontawesome.css';
+//import './css/grid.pure.css';
+//import './css/grid.bootstrap.css';
+//import './css/tools.bootstrap.css';
+import './css/tools.core.css';
+import './css/style.core.css';
+import './css/components/Header.css';
+import './css/components/Footer.css';
+import './css/components/Content.css';
+import registerServiceWorker from './registerServiceWorker';
+ReactDOM.render(<App />, document.getElementsByTagName('main')[0]);
+registerServiceWorker();
