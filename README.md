@@ -1,4 +1,5 @@
 [&copy;  2018 Dan Lindsey](https://mdlindsey.com)
+[Fork this project on GitHub](https://github.com/sisyn/react-portfolio-template)
 
 # React Portfolio Template
 ## Based on a design by [Xiaoying Riley](http://themes.3rdwavemedia.com/)
